@@ -19,6 +19,6 @@ public class MobileAlertObserverImpl implements NotificationAlertObserver {
     }
 
     private void sendMegOnMobile(String username, String message) {
-        System.out.println("mail sent to:" + username );
+        System.out.println("sms sent to:" + username );
     }
 }
